@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: white;
+    user-select: none;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    height: 90vh;
+    width: 60vh;
+    background-color:#3450a1;
+    margin: auto;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #041955;
+    height: 10%;
+    width: 100%;
+    border-bottom: 1px solid #eb06ff;
+}
+.app-body{
+    height: 90%;
+    width: 80%;
+    margin: auto;
+}
+
+
+.todo-form{
+    width: 100%;
+    text-align: center;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-input{
+    font-size: 110%;
+    width: 80%;
+    padding: 1%;
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: #3450a1;
+}
+.todo-input:focus{
+    outline: none;
+}
+.add-button{
+   background-color: #eb06ff;
+   width: 15%;
+   height: 60%;
+   margin-left:2%;
+   text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.todo-list{
+    font-size: 120%;
+    text-align: left;
+    margin: auto;
+    width: 100%;
+    height: 93%;
+    overflow:scroll;
+}
+.todo-list::-webkit-scrollbar {
+    display: none;
+}
+.item{
+    background-color: #041955;
+    border-radius: 4%;
+    font-size: 120%;
+    margin: 10px 0px;
+    padding: 3%;
+}
+.delete-button{
+    float: right;
+    background-color: red;
+    height: 10%;
+    width: 10%;
+    margin-top: 1%;
+    cursor: pointer;
+}
